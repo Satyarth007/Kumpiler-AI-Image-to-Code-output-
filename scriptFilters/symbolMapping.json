@@ -1,0 +1,22 @@
+[
+    {
+        "symbolKey":"doubleQuotesStart",
+        "defectSymbol":"“",
+        "actualSymbol":"\""
+    },
+    {
+        "symbolKey":"doubleQuotesEnd",
+        "defectSymbol":"’",
+        "actualSymbol":"\""
+    },
+    {
+        "symbolKey":"singleQuotesStart",
+        "defectSymbol":"‘",
+        "actualSymbol":"'"
+    },
+    {
+        "symbolKey":"singleQuotesEnd",
+        "defectSymbol":"’",
+        "actualSymbol":"'"
+    }
+]
