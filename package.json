@@ -1,0 +1,20 @@
+{
+  "name": "t19-kumpiler",
+  "version": "1.0.0",
+  "description": "KUMPILER PROJECT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SATYARTH",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "tesseract.js": "^5.0.5",
+    "yargs": "^17.7.2"
+  }
+}

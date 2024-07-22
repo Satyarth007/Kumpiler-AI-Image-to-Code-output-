@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@v2.1.1/dist/tesseract.min.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Image Upload and Toggle btn to see image-->
+    <div class="button-group">
+      <button id="uploadButton">Upload Image</button>
+      <input type="file" id="fileInput" accept="image/*" style="display:none;">
+      <button id="toggleImageButton">⬇️</button>
+    </div>
+    <div id="imagePreview" class="image-preview"></div>
+
+    <!-- Writable Textarea with Toggle -->
+    <div class="button-group">
+      <button id="showTextButton" class="action-button">Show Extracted Code</button>
+      <button id="toggleTextButton">⬇️</button>
+    </div>
+    <div id="fixedTextArea" class="text-area"></div>
+
+    <div class="button-group">
+      <select id="dropdown" class="dropdown">
+        <option value=""> - select - </option>
+        <option value="java">java</option>
+        <option value="cpp">cpp</option>
+        <option value="c">c</option>
+        <option value="python">python</option>
+      </select>
+
+    </div>
+    <!-- Textarea with Dropdown and Toggle -->
+    <div class="button-group">
+      <button id="showDropdownTextButton" class="action-button">Show Code Output</button>
+      <button id="toggleDropdownTextButton">⬇️</button>
+      <!-- <select id="dropdown" class="dropdown">
+        <option value=""> - select - </option>
+        <option value="java">java</option>
+        <option value="cpp">cpp</option>
+        <option value="c">c</option>
+        <option value="python">python</option>
+      </select> -->
+    </div>
+    <div id="dropdownTextArea" class="text-area">
+      <!-- <select id="dropdown" class="dropdown">
+        <option value=""> - select - </option>
+        <option value="java">java</option>
+        <option value="cpp">cpp</option>
+        <option value="c">c</option>
+        <option value="python">python</option>
+      </select> -->
+      <textarea id="manualTextarea" readonly></textarea>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p> <b>Kumpiler:</b> AI Image to Code Compiler</p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
